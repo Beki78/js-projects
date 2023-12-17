@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+div{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+   height: 55vh;
+   background-color: cadetblue;
+   width: 200px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 10px 5px 20px 5px rgba(0, 0, 0, 0.5);
+    
+}
+input{
+    grid-column: span 4; 
+    padding: 20px;
+    height: 40px;
+    font-size: 40px;
+    text-align: right;
+    background-color: rgb(228, 226, 224);
+    border: none;
+    border-radius: 4px;
+    direction: ltr;
+
+    
+}
+input:focus {
+    outline: none; /* Remove the default outline (border) on focus */
+  }
+button{
+    margin: 2px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+
+.no{
+    background-color: burlywood;
+}
+.no:hover{
+    background-color: rgb(229, 212, 189);
+}
+.no:active{
+    background-color: rgb(202, 187, 166);
+}
+.sign{
+    background-color: rgb(184, 181, 181);
+    font-size: 22px;
+    font-weight: bold;
+}
+.sign:hover{
+    background-color: rgb(142, 142, 142);
+}
+.sign:active{
+    background-color: rgb(169, 168, 168);
+}
+#dot, #clear{
+    background-color: rgb(148, 218, 198);
+    font-weight: bold;
+    font-size: 22px;
+}
+#dot:hover {
+    background-color: rgb(114, 166, 151);
+}
+#dot:active {
+    background-color: rgb(133, 171, 160);
+}
+#clear:hover {
+    background-color: rgb(114, 166, 151);
+}
+#clear:active {
+    background-color: rgb(133, 171, 160);
+}
+#equals{
+    grid-column: span 4;
+    font-size: 22px;
+    background-color: rgb(69, 69, 255);
+    color: wheat;
+
+}
+#equals:hover{
+    background-color: rgb(90, 90, 255);
+}
+#equals:active{
+    background-color: rgb(92, 92, 223);
+}

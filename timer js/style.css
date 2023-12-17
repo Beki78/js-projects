@@ -1,0 +1,44 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Nova Square', sans-serif;
+}
+#container{
+    height: 100vh;
+    background: radial-gradient(circle at center, #ffcc00, #ff3300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clock{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at center, rgba(255, 204, 0, 1), rgba(255, 204, 0, 0));
+    border-radius: 50%;
+    width: 500px; /* Adjust width and height to suit your design */
+    height: 500px;
+    transition: box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* Standard */
+    touch-action: manipulation; /* To improve touch behavior */
+    
+
+}
+#clock:hover{
+    box-shadow: 15px 0px 30px 5px rgba(0, 0, 0, 0.5);
+}
+p{
+    font-size: 80px;
+    font-weight: 700;
+    color: rgb(155, 77, 21);
+}
+
+
+        

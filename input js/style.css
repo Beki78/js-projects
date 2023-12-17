@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: skyblue;
+}
+#form{
+    border: 1px solid black;
+    height: 200px; 
+    width: 30%;
+    margin-top: 15%;
+    margin-left: 35%;
+    padding: 10px;
+    box-shadow:  5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: wheat;
+    
+}
+
+#form p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+#form label{
+    font-weight: 700;
+}
+#form input{
+    width: 90%;
+    margin-top: 10px;
+    padding: 4px;
+    border-radius: 4px;
+    border: none;
+}
+#form button{
+    margin-top: 10px;
+    cursor: pointer;
+ 
+}
+#form button:hover{
+    background-color: rgb(165, 164, 164);
+    border: 1px solid black ;
+}
+
+
+
+
+   

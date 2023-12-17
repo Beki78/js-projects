@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(to right, rgb(54, 198, 54),rgb(255, 98, 0));
+}
+div{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    background-color: rgb(121, 121, 121);
+    height: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 0px 0px rgb(red, green, blue);
+    transition: box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+}
+#container:hover{
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+p{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to bottom, rgb(172, 177, 227), #0008ff , rgb(172, 177, 227)); /* Define your gradient colors */
+    -webkit-background-clip: text; /* Apply gradient as text color - Webkit browsers */
+    background-clip: text; /* Apply gradient as text color */
+    color: transparent;
+    text-shadow: 3px 0px 4px rgba(0, 0, 0, 0.5);
+}
